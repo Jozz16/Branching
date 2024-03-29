@@ -15,10 +15,10 @@ h1 {
 }
   
 img {
-  max-width: 40%;
-  padding: 20px;
-  display: block;
-  margin: 0 auto;
+  display: block; /* Asegura que la imagen se comporte como un bloque */
+  margin: 0 auto; /* Establece el margen horizontal automático para centrar la imagen */
+  width: 30%; /* Ancho de la imagen */
+  padding-bottom: 2rem;
 }
 
 form {
